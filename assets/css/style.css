@@ -19,9 +19,17 @@ main {
     font-weight: 300;
 }
 
+/* FIN ESTILOS NAVBAR */
+
+/* INICIO ESTILOS SECCION ¿QUIENES SOMOS? */
 #nosotros .card{
     border: none;
 }
+
+hr {
+    color: #FFFFFF;
+}
+
 #nosotros .list-group-item{
     background-color: #000000;
     border: none;
@@ -35,7 +43,7 @@ main {
 }
 
 #nosotros .icon{
-    background-color: aqua;
+    background-color: #189b9b;
     color: #FFFFFF;
 }
 
@@ -50,3 +58,34 @@ main {
         display: none;
     }
 }
+
+/* FIN ESTILOS SECCION ¿QUIENES SOMOS? */
+
+/* INICIO ESTILOS SECCION DESTACADOS */
+
+#destacados .titulo{
+    color: #FFFFFF;
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#destacados .card-body{
+    background-color: #189b9b;
+}
+
+#destacados .card-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#destacados .card-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+/* FIN ESTILOS SECCION DESTACADOS */
