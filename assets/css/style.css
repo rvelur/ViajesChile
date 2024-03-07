@@ -1,3 +1,7 @@
+main {
+    background-color: #000000;
+}
+
 /* INICIO ESTILOS NAVBAR */
 
 .navbar-brand {
@@ -7,9 +11,42 @@
     font-weight: 300;
     font-style: italic;
 }
+
 .nav-link{
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 300;
+}
+
+#nosotros .card{
+    border: none;
+}
+#nosotros .list-group-item{
+    background-color: #000000;
+    border: none;
+}
+
+#nosotros .titulo {
+    color: #FFFFFF;
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#nosotros .icon{
+    background-color: aqua;
+    color: #FFFFFF;
+}
+
+#nosotros p{
+    color: #FFFFFF;
+    font-family: "Cabin", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    #nosotros {
+        display: none;
+    }
 }
